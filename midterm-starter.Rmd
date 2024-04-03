@@ -12,6 +12,7 @@ output: html_document
 ## Load packages
 
 ```{r load-packages, message = F}
+rm(list=ls())
 library(tidyverse)
 library(palmerpenguins)
 ```
